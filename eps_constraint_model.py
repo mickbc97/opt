@@ -366,7 +366,7 @@ for k in K:
         result_dict[k] = sumd/Dk[k]
 
 # Write file of added demand values
-name = 'added_demand2.csv'
+name = 'added_demand_eps.csv'
 f = open(name,'w', newline='')
 header = ['k', 'i', 'j', 'added_demand']
 writer = csv.writer(f)
