@@ -12,11 +12,11 @@ import pandas as pd
 import time
 
 # Import csvs to dataframes
-nodedf = pd.read_csv('C:/Users/mickb/OneDrive - University of Oklahoma/School Documents/Thesis/SwRail_Interdiction_Mick/Input/chosen_network_nodes.csv') # nodes
-linkdf = pd.read_csv('C:/Users/mickb/OneDrive - University of Oklahoma/School Documents/Thesis/SwRail_Interdiction_Mick/Input/chosen_network_links.csv') # links
+nodedf = pd.read_csv('chosen_network_nodes.csv') # nodes
+linkdf = pd.read_csv('chosen_network_links.csv') # links
 # intddf = pd.read_csv('C:/Users/mickb/OneDrive - University of Oklahoma/School Documents/Thesis/SwRail_Interdiction_Mick/Input/interdiction_list.csv') # selected interdiction links
 # met_demdf = pd.read_csv('C:/Users/mickb/OneDrive - University of Oklahoma/School Documents/Thesis/SwRail_Interdiction_Mick/Input/interdicted_met_dems.csv') # met demand values
-met_demdf = pd.read_csv('C:/Users/mickb/OneDrive - University of Oklahoma/School Documents/Thesis/SwRail_Interdiction_Mick/Input/interdicted_met_dems5.csv') # met demand values
+met_demdf = pd.read_csv('interdicted_met_dems5.csv') # met demand values
 
 # nodedf = pd.read_csv('/Users/Mick/OneDrive - University of Oklahoma/School Documents/Thesis/SwRail_Interdiction_Mick/mick_network_nodes_full.csv')
 # linkdf = pd.read_csv('/Users/Mick/OneDrive - University of Oklahoma/School Documents/Thesis/SwRail_Interdiction_Mick/mick_network_edges_full.csv')
